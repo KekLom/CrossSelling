@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0.8, user-scalable=no">
+		<meta charset="UTF-8">
+		<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Cross-Selling-Регистрация</title>
+		<script src="script/reg.js"defer></script>
+		<link rel="stylesheet" href="style/reg.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	</head>
+	<body>
+		<div id="reg">
+			<div class="container mt-4">
+				<h1>Форма регистрации</h1>
+				<form action="check.php" method="post">
+					<input type="text" class="form-control" name="login"
+					id="login" placeholder="Ведите логин"><br>
+					<input type="text" class="form-control" name="name"
+					id="name" placeholder="Ведите ФИО"><br>
+					<input type="password" class="form-control" name="pass"
+					id="pass" placeholder="Ведите пароль"><br>
+					<button class="btn btn-success"
+					type="submit">Зарегестрироваться</button>
+				</form>
+			</div>
+			<div id="est">Уже зарегестрированы?</div>
+		</div>
+		<div id="log">
+		<div id="nety">Зарегестрироваться</div>
+			<div class="container mt-4">
+				<h1>Форма авториации</h1>
+				<form action="auth.php" method="post">
+					<input type="text" class="form-control" name="login"
+					id="login" placeholder="Ведите логин"><br>
+					<input type="password" class="form-control" name="pass"
+					id="pass" placeholder="Ведите пароль"><br>
+					<button class="btn btn-success"
+					type="submit">Авторизироваться</button>
+					</form>
+			</div>
+		</div>
+	</body>
+</html>

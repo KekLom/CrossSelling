@@ -1,0 +1,86 @@
+var v=0,k=60,q=0,e=0;
+menu.onclick=function(){
+	windows2.style.top='75px';
+	panelmenu.style.top='0px';
+	otmena.style.width='100%';
+	otmena.style.height='100%';
+}
+otmena.onclick=function(){
+	panelmenu.style.top='-500px';
+	otmena.style.width='0%';
+	otmena.style.height='0%';
+	var fn=function(){
+		windows2.style.top='-500px';
+	}
+	setTimeout(fn, 400)
+}
+buttom2.onclick=function(){
+	if(e==0){
+		e=1
+	k=k+200;
+	if(k==460){
+		k=k-60;
+	}
+	if(k==320){
+			k=k-60;
+		}
+	windowves.style.height='200px';
+	kater2.style.top='60px';
+	windowart.style.top='200px';
+	windows2.style.height=k;
+	buttom2.style.top='-500%';
+	buttom2_2.style.top='2.5%';
+	knop1.style.top='30%';
+	knop2.style.top='40%';
+	knop3.style.top='50%';
+}
+}
+buttom1.onclick=function(){
+		if(q==0){
+		q=1
+	k=k+200;
+	if(k==460){
+		k=k-60;
+	}
+	if(k==320){
+			k=k-60;
+		}
+	windowart.style.height='200px';
+	kater1.style.top='60px';
+	windows2.style.height=k;
+	buttom1.style.top='-500%';
+	buttom1_2.style.top='2.5%';
+	knop4.style.top='30%';
+	knop5.style.top='40%';
+	knop6.style.top='50%';
+}
+}
+buttom2_2.onclick=function(){
+	if(e==1){
+	k=k-140;
+	e=0;
+	windowves.style.height='60px';
+	kater2.style.top='-500px';
+	windowart.style.top='60px';
+	windows2.style.height=k;
+	buttom2_2.style.top='-500%';
+	buttom2.style.top='2.5%';
+	knop1.style.top='-1000%';
+	knop2.style.top='-1000%';
+	knop3.style.top='-1000%';
+}
+}
+buttom1_2.onclick=function(){
+	if(q==1){
+	k=k-140;
+	q=0
+	windowart.style.height='200px';
+	kater1.style.top='60px';
+	windows2.style.height=k;
+	buttom1_2.style.top='-500%';
+	buttom1.style.top='2.5%';
+	knop4.style.top='-1000%';
+	knop5.style.top='-1000%';
+	knop6.style.top='-1000%';
+}
+}
